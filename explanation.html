@@ -189,7 +189,7 @@ d3
     .delay(4000)
     .duration(3000)
     .style("opacity","1")
-    .text("If we look at the most recent government data (from 2014) on the causes of death among Indian women, we see above that diseases of the heart and blood vessels are the biggest factor causing 32% of deaths. Infectious and parasitic diseases are the second-largest contributor with 12%.")
+    .text("If we look at the most recent government data (from 2014) on the causes of death among Indian women, we see above that diseases of the heart and blood vessels are the biggest factor, causing 32% of deaths. Infectious and parasitic diseases are the second-largest contributor with 12%.")
 
 d3.select("body")
   .append("p")
@@ -199,7 +199,7 @@ d3.select("body")
     .delay(7000)
     .duration(3000)
     .style("opacity","1")
-    .text("Note that this data is based on the 399,535 deaths of women in 2014 where the cause of death was medically certified. This is just a fraction of all the deaths registered in the country, but it should still be useful in learning what diseases affect female health most in India. Next, we next take a look at how these diseases vary as a cause of death across different age groups.");
+    .text("Note that this data is based on the 399,535 deaths of women in 2014 in which the cause of death was medically certified. This is just a fraction of all the deaths registered in the country, but it should still be useful in learning what diseases affect female health most in India. Next, we next take a look at how these diseases vary as a cause of death across different age groups.");
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
   if (error) throw error;
