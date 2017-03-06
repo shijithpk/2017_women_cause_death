@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+This is a repository of the code, data and images for a women's day interactive on the Indian news website [wionews.com](http://www.wionews.com)
 
-You can use the [editor on GitHub](https://github.com/shijithpk/2017_women_cause_death/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Notes**
+* The image on the homepage is taken from the [wikimedia commons](https://commons.wikimedia.org/wiki/File:Female_shadow_anatomy_without_labels.svg).
+* The data for the interactive is taken from the [Medical Certification of Causes of Death report 2014](www.censusindia.gov.in/2011-Documents/mccd_Report1/mccd_report_2014.pdf).
+* The colour combinations chosen for the different pages are from the Visme.co [blog](http://blog.visme.co/color-combinations/)
+* I chose not to do a slide on deaths caused by perinatal conditions, which, if you look at slide 2, is actually the fourth biggest cause of deaths among Indian women. The thing is that most of the deaths occur in girls under the age of one, and doesn't really affect other age groups, so there isn't really any interesting pattern to visualise.
+* Also, if anyone is offended by this interactive, I want to apologise in advance. It isn't my aim to trivialise dying and I am aware of the ethical issues involved in visualising it. Hope I've come out on the right side of things here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shijithpk/2017_women_cause_death/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
