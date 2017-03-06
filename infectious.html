@@ -186,21 +186,21 @@ d3.select("body")
   .append("p")
   .style("margin-top","0px")
   .style("opacity","0")
+  .html("<u>25%</u> or a quarter of all girls who've died between the ages of 1 and 14 have died from infectious and parasitic diseases such as tuberculosis, cholera and typhoid.")
     .transition()
       .delay(5000)
       .duration(3000)
-      .style("opacity","1")
-      .text("25% or a quarter of all girls who've died between the ages of 1 and 14 have died from infectious and parasitic diseases such as tuberculosis, cholera and typhoid.");
+      .style("opacity","1");
 
 d3.select("body")
   .append("p")
   .style("margin-top","5px")
   .style("opacity","0")
+  .html("The share of infectious and parasitic diseases in the deaths of women steadily declines in older age groups.")
     .transition()
       .delay(7000)
       .duration(3000)
-      .style("opacity","1")
-      .text("The share of infectious and parasitic diseases in the deaths of women steadily declines in older age groups.");
+      .style("opacity","1");
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
   if (error) throw error;

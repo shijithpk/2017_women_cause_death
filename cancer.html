@@ -187,21 +187,21 @@ d3.select("body")
   .append("p")
   .style("margin-top","0px")
   .style("opacity","0")
+  .html("<u>12 out of every 100</u> Indian women who died between the ages of 45 and 54, died from some cancer. This includes breast, ovarian, stomach and colon cancers.")
     .transition()
       .delay(5000)
       .duration(3000)
-      .style("opacity","1")
-      .text("12 out of every 100 Indian women who died between the ages of 45 and 54, died from some cancer. This includes breast, ovarian, stomach and colon cancers.");
+      .style("opacity","1");
 
 d3.select("body")
   .append("p")
   .style("margin-top","5px")
   .style("opacity","0")
+  .html("The share of cancers as a cause of death among Indian women steadily rises after the age of 25 and declines after the age of 54.")
     .transition()
       .delay(7000)
       .duration(3000)
-      .style("opacity","1")
-      .text("The share of cancers as a cause of death among Indian women steadily rises after the age of 25 and declines after the age of 54.");
+      .style("opacity","1");
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
   if (error) throw error;

@@ -182,25 +182,38 @@ var bar_enter = svg.selectAll(".bar")
       return d;
     }
 
+/*
+d3.select("body")
+  .append("div")
+  .style("margin-top","0px")
+  .style("opacity","0")
+  .html('<p>What these bars represent is the percentage of female deaths in each age group caused by heart or cardiovascular diseases such as stroke, heart attack and hypertension.</p>')
+  .transition()
+    .delay(5000)
+    .duration(3000)
+    .style("opacity","1");
+*/
+
 d3.select("body")
   .append("p")
   .style("margin-top","0px")
   .style("opacity","0")
+  .html('What these bars represent is the percentage of female deaths in each age group caused by heart or cardiovascular diseases such as stroke, heart attack and hypertension.')
   .transition()
     .delay(5000)
     .duration(3000)
-    .style("opacity","1")
-    .text("What these bars represent is the percentage of female deaths in each age group caused by heart or cardiovascular diseases such as stroke, heart attack and hypertension.");
+    .style("opacity","1");
+
+
 d3.select("body")
   .append("p")
-  .style("margin-top","4px")
+  .style("margin-top","0px")
   .style("opacity","0")
+  .html("So out of every 100 women who've died over the age of 70, <u>45 died</u> from heart disease. The share of heart disease keeps rising after 35.")
   .transition()
     .delay(7000)
     .duration(3000)
-    .style("opacity","1")
-    .text("So out of every 100 women who've died over the age of 70, 45 died from heart disease. We see the share of heart disease rising after the age of 35.");
-
+    .style("opacity","1");
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
   if (error) throw error;
