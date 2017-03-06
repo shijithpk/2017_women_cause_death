@@ -1,0 +1,292 @@
+{
+    "name": "Flare", 
+    "children": [
+        {
+            "name": "Certain conditions originating  in the perinatal  period", 
+            "children": [
+                {
+                    "name": "Certain conditions originating in the perinatal period (fetal malnutrition, birth trauma etc.)", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Certain infectious and parasitic diseases", 
+            "children": [
+                {
+                    "name": "Viral diseases (hepatitis, HIV, measles etc.)", 
+                    "size": "1"
+                }, 
+                {
+                    "name": "Tuberculosis", 
+                    "size": "2.5"
+                }, 
+                {
+                    "name": "Protozoal diseases (malaria etc.)", 
+                    "size": "0.5"
+                }, 
+                {
+                    "name": "Other  certain infectious & parasitic diseases and late effects of infectious & parasitic diseases", 
+                    "size": "0.1"
+                }, 
+                {
+                    "name": "Other bacterial diseases (plague, leprosy, tetanus etc.)", 
+                    "size": "5.4"
+                }, 
+                {
+                    "name": "Intestinal infectious diseases (Cholera, Typhoid, Diarrhoea etc.)", 
+                    "size": "0.7"
+                }, 
+                {
+                    "name": "Infections with a predominantly sexual mode of transmission (syphillis etc.)", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Congenital malformations, deformations and chromosomal abnormalities", 
+            "children": [
+                {
+                    "name": "Congenital malformations, deformations and chromosomal abnormalities (spina bifida, cleft lip etc.)", 
+                    "size": "0.2"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism", 
+            "children": [
+                {
+                    "name": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (thalassaemia, anaemia etc.)", 
+                    "size": "1.3"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the circulatory system", 
+            "children": [
+                {
+                    "name": "Other diseases of the circulatory system (atherosclerosis, embolism, thrombosis etc.)", 
+                    "size": "0.6"
+                }, 
+                {
+                    "name": "Ischaemic heart diseases", 
+                    "size": "13.4"
+                }, 
+                {
+                    "name": "Hypertensive diseases", 
+                    "size": "4.4"
+                }, 
+                {
+                    "name": "Diseases of pulmonary  circulation and other forms of heart disease", 
+                    "size": "16.1"
+                }, 
+                {
+                    "name": "Cerebrovascular diseases", 
+                    "size": "5.6"
+                }, 
+                {
+                    "name": "Acute rheumatic fever and chronic rheumatic heart  diseases", 
+                    "size": "0.9"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the  digestive system", 
+            "children": [
+                {
+                    "name": "Diseases of the other parts of digestive system (gastritis, liver and pancreatic disorders etc.)", 
+                    "size": "3.6"
+                }, 
+                {
+                    "name": "Diseases of oral cavity, salivary glands and jaws", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the ear and mastoid process", 
+            "children": [
+                {
+                    "name": "Diseases of the ear and mastoid process", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the eye and adnexa", 
+            "children": [
+                {
+                    "name": "Disease of the eye and adnexa", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the genitourinary system", 
+            "children": [
+                {
+                    "name": "Other diseases of the genitourinary system (hyperplasia etc.)", 
+                    "size": "0.1"
+                }, 
+                {
+                    "name": "Diseases of urinary system (kidney, ureter disorders etc.)", 
+                    "size": "3.8"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the musculoskeletal system and connective tissue", 
+            "children": [
+                {
+                    "name": "Diseases of the musculoskeletal system and connective tissue (arthiritis etc)", 
+                    "size": "0.2"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the nervous system", 
+            "children": [
+                {
+                    "name": "Other diseases of the nervous system (alzheimer\u2019s, epilepsy etc.)", 
+                    "size": "0.9"
+                }, 
+                {
+                    "name": "Inflammatory diseases of the central nervous system (meningitis, encephalitis etc.)", 
+                    "size": "0.7"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the respiratory system", 
+            "children": [
+                {
+                    "name": "Other diseases of the respiratory system (influenza, pneumonia etc.)", 
+                    "size": "4"
+                }, 
+                {
+                    "name": "Lower respiratory diseases (bronchitis, asthma etc.)", 
+                    "size": "3.5"
+                }, 
+                {
+                    "name": "Diseases of the upper respiratory tract (pharyngitis, tonsilitis, laryngitis etc.)", 
+                    "size": "0.2"
+                }
+            ]
+        }, 
+        {
+            "name": "Diseases of the skin and subcutaneous tissue", 
+            "children": [
+                {
+                    "name": "Diseases of the skin and subcutaneous tissue", 
+                    "size": "0.3"
+                }
+            ]
+        }, 
+        {
+            "name": "Endocrine, nutritional and metabolic diseases", 
+            "children": [
+                {
+                    "name": "Malnutrition", 
+                    "size": "0"
+                }, 
+                {
+                    "name": "Endocrine, other nutritional and metabolic diseases (diabetes etc.)", 
+                    "size": "6.4"
+                }
+            ]
+        }, 
+        {
+            "name": "Injury, poisoning and certain other consequences of external causes", 
+            "children": [
+                {
+                    "name": "Injury, poisoning and certain other consequences of external causes (fractures, dislocations, poisonings, accidents,assault, drowning etc.)", 
+                    "size": "3.3"
+                }
+            ]
+        }, 
+        {
+            "name": "Mental and behavioural disorders", 
+            "children": [
+                {
+                    "name": "Mental and behavioural disorders", 
+                    "size": "0.2"
+                }
+            ]
+        }, 
+        {
+            "name": "Neoplasms", 
+            "children": [
+                {
+                    "name": "Other and unspecified  neoplasm", 
+                    "size": "0.6"
+                }, 
+                {
+                    "name": "Malignant neoplasms of  respiratory and intrathoracic organs (larynx, trachea etc.)", 
+                    "size": "0.8"
+                }, 
+                {
+                    "name": "Malignant neoplasms  of other and unspecified sites", 
+                    "size": "0.5"
+                }, 
+                {
+                    "name": "Malignant neoplasms of lymphoid, haematopoietic and related tissue (leukaemia, hodgkins etc.)", 
+                    "size": "0.8"
+                }, 
+                {
+                    "name": "Malignant neoplasms of lip, oral cavity and pharynx", 
+                    "size": "0.5"
+                }, 
+                {
+                    "name": "Malignant neoplasms of genitourinary organs (ovary, prostate etc.)", 
+                    "size": "1.5"
+                }, 
+                {
+                    "name": "Malignant neoplasms of  eye, brain and other parts of central nervous system", 
+                    "size": "0.2"
+                }, 
+                {
+                    "name": "Malignant neoplasms of digestive organs (pancreas, stomach, colon etc.)", 
+                    "size": "2.1"
+                }, 
+                {
+                    "name": "Malignant neoplasms of bone, mesothelial and soft tissue,skin and breast", 
+                    "size": "1.6"
+                }, 
+                {
+                    "name": "Carcinoma in situ", 
+                    "size": "0.3"
+                }, 
+                {
+                    "name": "Benign neoplasms", 
+                    "size": "0.1"
+                }
+            ]
+        }, 
+        {
+            "name": "Pregnancy, childbirth and the puerperium", 
+            "children": [
+                {
+                    "name": "Pregnancy with abortive outcome", 
+                    "size": "0"
+                }, 
+                {
+                    "name": "Other obstetric conditions, not elsewhere classified", 
+                    "size": "0"
+                }, 
+                {
+                    "name": "Other direct obstetric deaths", 
+                    "size": "0"
+                }
+            ]
+        }, 
+        {
+            "name": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified", 
+            "children": [
+                {
+                    "name": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (senility, shock, convulsions etc.)", 
+                    "size": "10.7"
+                }
+            ]
+        }
+    ]
+}

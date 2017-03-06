@@ -1,0 +1,237 @@
+@viewport {
+      width: 355px;
+    }
+
+@import url(https://fonts.googleapis.com/css?family=Khula:400,700);
+
+body { 
+    font-family: 'Khula', sans-serif;
+    line-height: 20px;
+    width: 355px;
+    height: 600px;
+    border: 1px solid #4f504f;
+    padding: 4px 8px 2px 8px;
+}
+
+
+p.title{
+    margin:2px 4px 4px 4px;
+    line-height:16px;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+}
+
+p.writeup{
+    margin:0px 4px 1px 4px;
+    font-size:16px;
+    text-align:left;
+}
+
+text {
+        font-family: 'Khula', sans-serif;
+        font-size: 14px;
+        }
+
+text.pop {
+        fill:#FFFFFF;
+        text-anchor:end;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+text.pop2 {
+        fill:#FFFFFF;
+        text-anchor:end;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+/*
+text.tick {
+        font-size: 12px;
+        font-weight: normal;
+        opacity:0;
+      }
+*/
+
+div.wrapper{
+    width:355px;
+    height: 50px;
+}
+
+div.left_arrow{
+    width:56px;
+    height: 50px;
+    float: left;
+}
+
+div.home_button{
+    width:64px;
+    height: 50px;
+    margin-left: 89px;
+    margin-right:89px;
+    float:left;
+}
+
+div.right_arrow{
+    width:56px;
+    height:50px;
+    float: left;
+}
+
+.shadow {
+filter: url(#drop-shadow);
+}
+
+.bar {
+      rx:8;
+      fill: url(#gradient);      
+    }
+
+rect.background {
+  fill: white;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+body.circulatory {
+    background-color:#99BFAA;
+    color: #f2faed;
+    }
+
+text.circulatory {
+        fill:#f2faed;
+        text-anchor:end;
+      }
+
+.circulatory line{
+  stroke: #f2faed;
+}
+
+.circulatory path{
+  stroke: #f2faed;
+}
+
+.buttons_circulatory{
+    fill:#f2faed;
+}
+
+body.infectious {
+    background-color:#D75404;
+    color: #EECC8D;
+    }
+
+
+text.infectious {
+        fill:#EECC8D;
+        text-anchor:end;
+      }
+
+.infectious line{
+  stroke: #EECC8D;
+}
+
+.infectious path{
+  stroke: #EECC8D;
+}
+
+.buttons_infectious{
+    fill:#EECC8D;
+}
+
+body.cancer {
+    background-color:#d75b66;
+    color: #F4d9c1;
+    }
+
+text.cancer {
+        fill:#F4d9c1;
+        text-anchor:end;
+      }
+
+.cancer line{
+  stroke: #F4d9c1;
+}
+
+.cancer path{
+  stroke: #F4d9c1;
+}
+
+.buttons_cancer{
+    fill:#F4d9c1;    
+}
+
+body.respiratory {
+    background-color:#A882C1;
+    color: #F4F3F4;
+    }
+
+text.respiratory {
+        fill:#F4F3F4;
+        text-anchor:end;
+      }
+
+.respiratory line{
+  stroke: #F4F3F4;
+}
+
+.respiratory path{
+  stroke: #F4F3F4;
+}
+
+.buttons_respiratory{
+    fill:#F4F3F4;
+}
+
+body.homepage {
+    background-color:#415939;
+    color: #Fee8cb;
+    }
+
+text.homepage {
+        fill:#Fee8cb;
+        text-anchor:end;
+      }
+
+.homepage line{
+  stroke: #Fee8cb;
+}
+
+.homepage path{
+  stroke: #Fee8cb;
+}
+
+.buttons_homepage{
+    fill:#Fee8cb;
+    margin-right:10px;
+}
+
+body.explanation {
+    background-color:#36688D;
+    color: #F1e0d6;
+    }
+
+text.explanation {
+        fill:#F1e0d6;
+        text-anchor:end;
+      }
+
+.explanation line{
+  stroke: #F1e0d6;
+}
+
+.explanation path{
+  stroke: #F1e0d6;
+}
+
+.buttons_explanation{
+    fill:#F1e0d6;
+}
+
+body.drilldown {
+    background-color:#73C0F4;
+    color: #E6EFF3;
+    }

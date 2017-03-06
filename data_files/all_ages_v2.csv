@@ -1,0 +1,55 @@
+Category,cause,Total
+Certain infectious and parasitic diseases,"Intestinal infectious diseases (Cholera, Typhoid, Diarrhoea etc.)",0.9
+Certain infectious and parasitic diseases,Tuberculosis,2.9
+Certain infectious and parasitic diseases,"Other bacterial diseases (plague, leprosy, tetanus etc.)",5.5
+Certain infectious and parasitic diseases,Infections with a predominantly sexual mode of transmission (syphillis etc.),0.1
+Certain infectious and parasitic diseases,"Viral diseases (hepatitis, HIV, measles etc.)",1.4
+Certain infectious and parasitic diseases,Protozoal diseases (malaria etc.),0.7
+Certain infectious and parasitic diseases,Other  certain infectious & parasitic diseases and late effects of infectious & parasitic diseases,0.1
+Neoplasms,"Malignant neoplasms of lip, oral cavity and pharynx",0.3
+Neoplasms,"Malignant neoplasms of digestive organs (pancreas, stomach, colon etc.)",1.4
+Neoplasms,"Malignant neoplasms of  respiratory and intrathoracic organs (larynx, trachea etc.)",0.5
+Neoplasms,"Malignant neoplasms of bone, mesothelial and soft tissue,skin and breast",1.1
+Neoplasms,"Malignant neoplasms of genitourinary organs (ovary, prostate etc.)",1.1
+Neoplasms,"Malignant neoplasms of  eye, brain and other parts of central nervous system",0.1
+Neoplasms,Malignant neoplasms  of other and unspecified sites,0.3
+Neoplasms,"Malignant neoplasms of lymphoid, haematopoietic and related tissue (leukaemia, hodgkins etc.)",0.7
+Neoplasms,Carcinoma in situ,0.3
+Neoplasms,Benign neoplasms,0.1
+Neoplasms,Other and unspecified  neoplasm,0.4
+Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism ( d50-d89),"Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (thalassaemia, anaemia etc.)",1.8
+"Endocrine, nutritional and metabolic diseases",Malnutrition,0.1
+"Endocrine, nutritional and metabolic diseases","Endocrine, other nutritional and metabolic diseases (diabetes etc.)",4
+Mental and behavioural disorders,Mental and behavioural disorders,0.2
+Diseases of the nervous system,"Inflammatory diseases of the central nervous system (meningitis, encephalitis etc.)",0.9
+Diseases of the nervous system,"Other diseases of the nervous system (alzheimer’s, epilepsy etc.)",1
+Diseases of the eye and adnexa,Disease of the eye and adnexa,0
+Diseases of the ear and mastoid process,Diseases of the ear and mastoid process,0
+Diseases of the circulatory system,Acute rheumatic fever and chronic rheumatic heart  diseases,0.8
+Diseases of the circulatory system,Hypertensive diseases,3.1
+Diseases of the circulatory system,Ischaemic heart diseases,10.3
+Diseases of the circulatory system,Diseases of pulmonary  circulation and other forms of heart disease,13.4
+Diseases of the circulatory system,Cerebrovascular diseases,4
+Diseases of the circulatory system,"Other diseases of the circulatory system (atherosclerosis, embolism, thrombosis etc.)",0.5
+Diseases of the respiratory system,"Diseases of the upper respiratory tract (pharyngitis, tonsilitis, laryngitis etc.)",0.2
+Diseases of the respiratory system,"Lower respiratory diseases (bronchitis, asthma etc.)",2.8
+Diseases of the respiratory system,"Other diseases of the respiratory system (influenza, pneumonia etc.)",4.4
+Diseases of the  digestive system,"Diseases of oral cavity, salivary glands and jaws",0
+Diseases of the  digestive system,"Diseases of the other parts of digestive system (gastritis, liver and pancreatic disorders etc.)",2.6
+Diseases of the skin and subcutaneous tissue,Diseases of the skin and subcutaneous tissue,0.2
+Diseases of the musculoskeletal system and connective tissue,Diseases of the musculoskeletal system and connective tissue (arthiritis etc),0.1
+Diseases of the genitourinary system,"Diseases of urinary system (kidney, ureter disorders etc.)",2.8
+Diseases of the genitourinary system,Other diseases of the genitourinary system (hyperplasia etc.),0.1
+"Pregnancy, childbirth and the puerperium
+",Pregnancy with abortive outcome,0.1
+"Pregnancy, childbirth and the puerperium
+",Other direct obstetric deaths,0.9
+"Pregnancy, childbirth and the puerperium
+","Other obstetric conditions, not elsewhere classified",0.1
+"Certain conditions originating  in the perinatal  period ( p00-p96)
+","Certain conditions originating in the perinatal period (fetal malnutrition, birth trauma etc.)",7.3
+"Congenital malformations, deformations and chromosomal abnormalities
+","Congenital malformations, deformations and chromosomal abnormalities (spina bifida, cleft lip etc.)",0.7
+"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (senility, shock, convulsions etc.)",13.4
+"Injury, poisoning and certain other consequences of external causes
+","Injury, poisoning and certain other consequences of external causes (fractures, dislocations, poisonings, accidents,assault, drowning etc.)",6.1
