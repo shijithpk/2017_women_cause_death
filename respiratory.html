@@ -186,11 +186,21 @@ var bar_enter = svg.selectAll(".bar")
 d3.select("body")
   .append("p")
   .style("margin-top","0px")
-  .text("Out of every 100 girls who died between the ages of one and four, eleven died from respiratory diseases such as asthma, influenza and pneumonia.");
+  .style("opacity","0")
+    .transition()
+      .delay(5000)
+      .duration(3000)
+      .style("opacity","1")
+      .text("Out of every 100 girls who died between the ages of one and four, eleven died from respiratory diseases such as asthma, influenza and pneumonia.");
 d3.select("body")
   .append("p")
   .style("margin-top","5px")
-  .text("The share of these respiratory diseases in the deaths of women stays in the range of 6-9% after the age of four.");
+  .style("opacity","0")
+    .transition()
+      .delay(7000)
+      .duration(3000)
+      .style("opacity","1")
+      .text("The share of these respiratory diseases in the deaths of women stays in the range of 6-9% after the age of four.");
 
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {

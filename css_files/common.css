@@ -58,6 +58,10 @@ text.tick {
 div.wrapper{
     width:355px;
     height: 50px;
+    position:absolute;
+    top:550px;
+    left:0px;
+
 }
 
 div.left_arrow{

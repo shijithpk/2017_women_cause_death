@@ -185,12 +185,22 @@ var bar_enter = svg.selectAll(".bar")
 d3.select("body")
   .append("p")
   .style("margin-top","0px")
-  .text("25% or a quarter of all girls who've died between the ages of 1 and 14 have died from infectious and parasitic diseases such as tuberculosis, cholera and typhoid.");
+  .style("opacity","0")
+    .transition()
+      .delay(5000)
+      .duration(3000)
+      .style("opacity","1")
+      .text("25% or a quarter of all girls who've died between the ages of 1 and 14 have died from infectious and parasitic diseases such as tuberculosis, cholera and typhoid.");
 
 d3.select("body")
   .append("p")
   .style("margin-top","5px")
-  .text("The share of infectious and parasitic diseases in the deaths of women steadily declines as women grow older.");
+  .style("opacity","0")
+    .transition()
+      .delay(7000)
+      .duration(3000)
+      .style("opacity","1")
+      .text("The share of infectious and parasitic diseases in the deaths of women steadily declines as women grow older.");
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
   if (error) throw error;

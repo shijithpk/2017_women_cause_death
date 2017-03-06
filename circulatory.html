@@ -185,11 +185,21 @@ var bar_enter = svg.selectAll(".bar")
 d3.select("body")
   .append("p")
   .style("margin-top","0px")
-  .text("What these bars represent is the percentage of female deaths in each age group caused by heart or cardiovascular diseases such as stroke, heart attack and hypertension.");
+  .style("opacity","0")
+  .transition()
+    .delay(5000)
+    .duration(3000)
+    .style("opacity","1")
+    .text("What these bars represent is the percentage of female deaths in each age group caused by heart or cardiovascular diseases such as stroke, heart attack and hypertension.");
 d3.select("body")
   .append("p")
   .style("margin-top","4px")
-  .text("So out of every 100 women who've died over the age of 70, 45 died from heart disease. We see the share of heart disease rising after the age of 35.");
+  .style("opacity","0")
+  .transition()
+    .delay(7000)
+    .duration(3000)
+    .style("opacity","1")
+    .text("So out of every 100 women who've died over the age of 70, 45 died from heart disease. We see the share of heart disease rising after the age of 35.");
 
 
 d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, xml) {
