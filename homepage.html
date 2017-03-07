@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=345">
+    <meta name="viewport" content="width=335">
     <link rel="stylesheet" type="text/css" href="css_files/common.css">
   </head>
   <body class="homepage" style="border: 0px solid #000000;">
@@ -18,7 +18,8 @@ d3.xml("svg_graphics/shadow.svg").mimeType("image/svg+xml").get(function(error, 
 var r_arrow = d3
                 .select("body")
                 .append("div")
-                .style("float","right");
+                .style("margin-left","275px")
+                .style("margin-right","25px");
 
 d3.xml("svg_graphics/fin_right_4.svg", function(error, xml) {
         if (error) {console.log(error); return;}

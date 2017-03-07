@@ -1,5 +1,5 @@
 @viewport {
-      width=345;
+      width=335;
     }
 
 @import url(https://fonts.googleapis.com/css?family=Khula:400,700);
@@ -212,7 +212,6 @@ text.homepage {
 
 .buttons_homepage{
     fill:#Fee8cb;
-    margin-right:10px;
 }
 
 body.explanation {
