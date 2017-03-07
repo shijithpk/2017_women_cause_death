@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title>Drawing line with arrow at the end</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.0/d3.min.js"></script>
+    </head>
+    <body>
+    <script type='text/javascript'>
+    var w = 300;
+    var h = 300;
+    var svg =  d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+
+    //arrow
+
+svg.append("svg:defs").append("svg:marker")
+    .attr("id", "triangle")
+    .attr("refX", 6)
+    .attr("refY", 6)
+    .attr("markerWidth", 30)
+    .attr("markerHeight", 30)
+    .attr("orient", "auto")
+    .append("path")
+    .attr("d", "M 0 0 12 6 0 12 3 6")
+    .style("fill", "black");
+
+    //line              
+        svg.append("line")
+            .attr("x1",  100)
+            .attr("y1", 100)
+            .attr("x2", 200)
+            .attr("y2", 100)
+            .attr("stroke-width", 1)
+            .attr("stroke", "black")
+            .attr("marker-end", "url(#triangle)");
+
+
+            </script>
+            </body>
+    </html>
