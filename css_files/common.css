@@ -1,5 +1,5 @@
 @viewport {
-      width=335;
+      width=device-width;
     }
 
 @import url(https://fonts.googleapis.com/css?family=Khula:400,700);
